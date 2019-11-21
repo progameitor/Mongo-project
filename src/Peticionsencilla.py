@@ -9,8 +9,8 @@ YELP_API_KEY = os.getenv("YELP_API_KEY")
 ENDPOINT = "https://api.yelp.com/v3/businesses/search"
 HEADERS = {'Authorization': 'bearer %s' % YELP_API_KEY}
 
-PARAMS =({'term': "schools",
-            'location': "San Francisco",
+PARAMS =({'term': "airport",
+            'location': "seattle",
             'limit': 50})
 
 
