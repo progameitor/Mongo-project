@@ -30,9 +30,6 @@ def obtenerMejor(company,city):
     
     yelp_dict = {}
     
-
-    
-    
     for i in api_query["businesses"]:
         lat.append(api_query["businesses"][i]["coordinates"]["latitude"])
         names.append(i["name"])
